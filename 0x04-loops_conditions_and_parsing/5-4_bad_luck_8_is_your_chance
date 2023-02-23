@@ -1,17 +1,20 @@
 #!/usr/bin/env bash
-# displays Best School 10 times.
+# This script loops from 1 to 10 and:
+# - displays `bad luck` for the 4th loop iteration
+# - displays `good luck` for the 8th loop iteration
+# - displays `Best School` for the other iterations
 
-COUNTER=1
-while [ $COUNTER -lt 11 ]
+n=1
+while [[ $n -le 10 ]] 
 do
-    if [ $COUNTER = 4 ]
-    then
-        echo "bad luck"
-    elif [ $COUNTER = 8 ]
-    then
-        echo "good luck"
-    else
-        echo "Best School"
-    fi
-    ((COUNTER+=1))
+	if [[ $n -eq 4 ]]
+	then
+		echo "bad luck"
+	elif [[ $n -eq 8 ]]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	n=$((n + 1))
 done
