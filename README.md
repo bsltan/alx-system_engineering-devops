@@ -16,4 +16,5 @@ Files | Description
 [0x07-networking_basics](0x07-networking_basics) | Networking Basics
 [0x08-networking_basics_2](0x08-networking_basics_2) | Networking Basics
 [0x09-web_infrastructure_design](0x09-web_infrastructure_design) | Web infrastructure design 
+[0x0B-ssh](0x0B-ssh) | SSH
 [command_line_for_the_win](command_line_for_the_win) | Command line for the win
