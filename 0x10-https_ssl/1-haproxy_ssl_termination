@@ -37,11 +37,11 @@ defaults
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
 
-listen thelaura
+listen bsltan
         bind :80
         mode http
         balance roundrobin
-        server 652-web-01 54.157.169.105:80 check
+        server 652-web-01 54.157.169.105 check
         server 652-web-02 52.91.116.185:80 check
 
 frontend www-http
@@ -50,7 +50,7 @@ frontend www-http
         default_backend web-backend
 
 frontend www-https
-        bind :443 ssl crt /etc/haproxy/ssl/www.thelaura.tech.pem
+        bind :443 ssl crt /etc/haproxy/ssl/www.bsltan.tech.pem
         reqadd X-Forwarded-Proto:\ https
         default_backend web-backend
 
