@@ -21,3 +21,4 @@ Files | Description
 [0x0A-configuration_management](0x0A-configuration_management) | Configuration management
 [command_line_for_the_win](command_line_for_the_win) | Command line for the win
 [0x0F-load_balancer](0x0F-load_balancer) | Load balancer
+[0x0E-web_stack_debugging_1](0x0E-web_stack_debugging_1) | Web stack debugging #1
