@@ -23,3 +23,5 @@ Files | Description
 [0x0F-load_balancer](0x0F-load_balancer) | Load balancer
 [0x0E-web_stack_debugging_1](0x0E-web_stack_debugging_1) | Web stack debugging #1
 [0x13-firewall](0x13-firewall) | Firewall
+[0x14-mysql](0x14-mysql) | MySQL
+[0x15-api](0x15-api)| API
