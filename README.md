@@ -26,3 +26,6 @@ Files | Description
 [0x14-mysql](0x14-mysql) | MySQL
 [0x15-api](0x15-api)| API
 [0x16-api_advanced](0x16-api_advanced) | API advanced
+[0x17-web_stack_debugging_3](0x17-web_stack_debugging_3) | Web stack debugging #3
+[0x18-webstack_monitoring](0x18-webstack_monitoring) | Webstack monitoring
+[0x19-postmortem](0x19-postmortem) | Postmortem
